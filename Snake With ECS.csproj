@@ -1,0 +1,17 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net7.0</TargetFramework>
+    <RootNamespace>Snake_With_ECS</RootNamespace>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Reference Include="WriterReaderLib">
+      <HintPath>..\WriterReaderLib\WriterReaderLib\bin\Debug\net6.0\WriterReaderLib.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>
